@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 CLI Analyze Command
 
 Performs static analysis on files with optional sandboxed dynamic analysis.
@@ -107,7 +107,7 @@ def perform_static_analysis(filepath: str) -> dict:
     # Initialize result structure
     result = {
         'metadata': {
-            'tool_name': 'ETHICAL Malware Analysis Toolkit (E-MAT)',
+            'tool_name': 'ETHICAL Malware Analysis Toolkit (E.MAT)',
             'version': '1.0.0',
             'analysis_id': datetime.now().strftime('%Y%m%d_%H%M%S'),
             'purpose': 'EDUCATIONAL ANALYSIS ONLY - For defensive cybersecurity research.',

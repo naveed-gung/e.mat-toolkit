@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 Configuration and Preferences Manager
 
 Manages user preferences including:
@@ -17,7 +17,7 @@ from enum import Enum
 
 
 class Component(Enum):
-    """Available E-MAT components"""
+    """Available E.MAT components"""
     CLI = "cli"
     DESKTOP = "desktop"
     SERVER = "server"
@@ -38,7 +38,7 @@ class OutputFormat(Enum):
 
 
 class PreferencesManager:
-    """Manages user preferences for E-MAT"""
+    """Manages user preferences for E.MAT"""
     
     def __init__(self):
         self.config_dir = Path.home() / ".emat"

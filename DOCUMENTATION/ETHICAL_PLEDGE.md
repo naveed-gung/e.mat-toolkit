@@ -2,7 +2,7 @@
 
 ## Our Commitment
 
-The ETHICAL Malware Analysis Toolkit (E-MAT) is developed with a fundamental commitment to **defensive cybersecurity education** and **responsible security research**.
+The ETHICAL Malware Analysis Toolkit (E.MAT) is developed with a fundamental commitment to **defensive cybersecurity education** and **responsible security research**.
 
 ## We Pledge To:
 
@@ -37,7 +37,7 @@ The ETHICAL Malware Analysis Toolkit (E-MAT) is developed with a fundamental com
 
 ## User Acknowledgment
 
-By using E-MAT, you acknowledge and agree to:
+By using E.MAT, you acknowledge and agree to:
 
 1. Use this toolkit **ONLY** for:
    - Educational purposes
@@ -74,6 +74,6 @@ Contributors to this project must:
 
 ---
 
-**By proceeding with the installation and use of E-MAT, you acknowledge that you have read, understood, and agree to abide by this Ethical Pledge.**
+**By proceeding with the installation and use of E.MAT, you acknowledge that you have read, understood, and agree to abide by this Ethical Pledge.**
 
 *Last Updated: February 2026*

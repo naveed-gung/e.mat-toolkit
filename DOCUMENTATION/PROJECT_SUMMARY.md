@@ -1,7 +1,7 @@
-# E-MAT Project Summary
+# E.MAT Project Summary
 
 ## Overview
-ETHICAL Malware Analysis Toolkit (E-MAT) - A modular, educational cybersecurity analysis framework with three interfaces (CLI, Desktop, Server) sharing a common ethical analysis engine.
+ETHICAL Malware Analysis Toolkit (E.MAT) - A modular, educational cybersecurity analysis framework with three interfaces (CLI, Desktop, Server) sharing a common ethical analysis engine.
 
 ## Author
 **Naveed Gung**
@@ -13,7 +13,7 @@ ETHICAL Malware Analysis Toolkit (E-MAT) - A modular, educational cybersecurity 
 ### Implemented Features
 
 #### ✅ Virtual Environment Setup
-- Python venv created in `e-mat-toolkit/venv/`
+- Python venv created in `e.mat-toolkit/venv/`
 - **Automatic venv activation** - no manual activation needed
 - Setup scripts for Windows (bash and batch)
 - Quick start automation script
@@ -59,7 +59,7 @@ ETHICAL Malware Analysis Toolkit (E-MAT) - A modular, educational cybersecurity 
 
 ### Directory Structure
 ```
-e-mat-toolkit/
+e.mat-toolkit/
 ├── venv/                    # Virtual environment ✅
 ├── CORE_ENGINE/
 │   ├── config/
@@ -166,4 +166,4 @@ python emat.py config --show
 
 ---
 
-**E-MAT is ready for educational malware analysis! 🛡️**
+**E.MAT is ready for educational malware analysis! 🛡️**

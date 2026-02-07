@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 CLI Search Command
 
 Search past analysis reports by hash, filename, IP, domain, etc.

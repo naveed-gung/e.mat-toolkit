@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 CLI YARA Scan Command
 
 Scan files with YARA rules.

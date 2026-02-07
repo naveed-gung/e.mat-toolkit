@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 CLI Collection Command
 
 Batch file analysis - analyze multiple files at once.
@@ -31,7 +31,7 @@ def collection_analyze(filepaths, json_output=False):
 
     if not json_output:
         print("\n" + "=" * 70)
-        print("E-MAT BATCH ANALYSIS")
+        print("E.MAT BATCH ANALYSIS")
         print("=" * 70)
         print(f"\nFiles to analyze: {len(filepaths)}\n")
 

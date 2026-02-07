@@ -1,4 +1,4 @@
-# E-MAT - Quick Reference Card
+# E.MAT - Quick Reference Card
 
 ## 🚀 Quick Start
 
@@ -54,7 +54,7 @@ python emat.py server --start --port 5000
 ## 📁 Project Structure
 
 ```
-e-mat-toolkit/
+e.mat-toolkit/
 ├── CORE_ENGINE/        # Analysis engine
 ├── CLI_TOOL/           # CLI commands
 ├── DESKTOP_APP/        # PyQt6 GUI
@@ -89,4 +89,4 @@ e-mat-toolkit/
 
 ---
 
-**E-MAT v1.0 - ETHICAL Malware Analysis Toolkit**
+**E.MAT v1.0 - ETHICAL Malware Analysis Toolkit**

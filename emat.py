@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-E-MAT - ETHICAL Malware Analysis Toolkit
+E.MAT - ETHICAL Malware Analysis Toolkit
 Smart Launcher with Interactive Interface Selection
 
 Author: Naveed Gung
@@ -193,7 +193,7 @@ BANNER = r"""
 
 
 def show_banner():
-    """Display E-MAT banner"""
+    """Display E.MAT banner"""
     print(BANNER)
     print("  ETHICAL Malware Analysis Toolkit")
     print("  GitHub:    https://github.com/naveed-gung")
@@ -242,7 +242,7 @@ def show_history(config):
 
 def launch_cli_help():
     """Show CLI help and usage"""
-    print("\nE-MAT CLI is ready!\n")
+    print("\nE.MAT CLI is ready!\n")
     print("Usage:")
     print("  python emat.py analyze <file>              - Analyze a file")
     print("  python emat.py analyze <file> --json        - JSON output")
@@ -302,7 +302,7 @@ def interactive_launcher():
                 config['preferred_interface'] = interface
         # else: use saved preference
     else:
-        print("Welcome to E-MAT! Let's get started.\n")
+        print("Welcome to E.MAT! Let's get started.\n")
         interface = prompt_interface_choice()
 
         save_pref = input(f"\nSave {interface.upper()} as preferred interface? (Y/n): ").strip().lower()

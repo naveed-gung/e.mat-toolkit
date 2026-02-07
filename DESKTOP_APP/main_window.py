@@ -1,8 +1,8 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 Desktop GUI Application
 
-PyQt6-based graphical interface for E-MAT
+PyQt6-based graphical interface for E.MAT
 """
 
 import sys
@@ -223,7 +223,7 @@ class MainWindow(QMainWindow):
         self.init_ui()
 
     def init_ui(self):
-        self.setWindowTitle("E-MAT - ETHICAL Malware Analysis Toolkit")
+        self.setWindowTitle("E.MAT - ETHICAL Malware Analysis Toolkit")
         self.setGeometry(120, 80, 1000, 650)
         self.setMinimumSize(800, 500)
 
@@ -250,7 +250,7 @@ class MainWindow(QMainWindow):
         hl = QHBoxLayout(header)
         hl.setContentsMargins(20, 0, 20, 0)
 
-        title = QLabel("E-MAT")
+        title = QLabel("E.MAT")
         title.setStyleSheet("color: #4a9eff; font-size: 18px; font-weight: 700; letter-spacing: 2px; background: transparent;")
         hl.addWidget(title)
 
@@ -332,7 +332,7 @@ class MainWindow(QMainWindow):
         footer.setStyleSheet("background-color: #0d1117; border-top: 1px solid #1e293b;")
         fl = QHBoxLayout(footer)
         fl.setContentsMargins(16, 0, 16, 0)
-        fl.addWidget(QLabel("2026 E-MAT"))
+        fl.addWidget(QLabel("2026 E.MAT"))
         fl.addStretch()
         center_lbl = QLabel("ETHICAL Malware Analysis Toolkit")
         center_lbl.setStyleSheet("color: #475569; font-size: 10px; background: transparent;")
@@ -976,7 +976,7 @@ class MainWindow(QMainWindow):
 def launch_desktop_app():
     """Launch the desktop GUI application"""
     app = QApplication(sys.argv)
-    app.setApplicationName("E-MAT")
+    app.setApplicationName("E.MAT")
     window = MainWindow()
     window.show()
     sys.exit(app.exec())

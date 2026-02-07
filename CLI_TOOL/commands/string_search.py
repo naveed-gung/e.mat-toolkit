@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 CLI String Search Command
 
 Search for HEX/ASCII string patterns in files at the byte level.

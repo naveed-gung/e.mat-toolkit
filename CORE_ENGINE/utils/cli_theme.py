@@ -1,5 +1,5 @@
 """
-E-MAT CLI Theme System
+E.MAT CLI Theme System
 Centralized theming for consistent terminal output
 """
 
@@ -58,7 +58,7 @@ BRANDING = f"""
 
 
 def print_logo():
-    """Print the E-MAT logo"""
+    """Print the E.MAT logo"""
     print(LOGO)
 
 

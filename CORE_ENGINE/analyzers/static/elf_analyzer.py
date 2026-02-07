@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 ELF (Executable and Linkable Format) File Analyzer
 
 Analyzes Linux ELF files for educational purposes:

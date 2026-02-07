@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 Unit Tests for Core Modules
 
 Tests hashing, PE/ELF analysis, string extraction, and YARA scanning
@@ -25,7 +25,7 @@ class TestHashing(unittest.TestCase):
     def setUp(self):
         """Create a temporary test file"""
         self.test_file = tempfile.NamedTemporaryFile(mode='w', delete=False)
-        self.test_file.write("This is a test file for E-MAT\n" * 100)
+        self.test_file.write("This is a test file for E.MAT\n" * 100)
         self.test_file.close()
     
     def tearDown(self):
@@ -213,7 +213,7 @@ class TestStringAnalyzer(unittest.TestCase):
 def run_tests():
     """Run all tests"""
     print("="*70)
-    print("E-MAT Unit Tests")
+    print("E.MAT Unit Tests")
     print("="*70)
     print("\n[#] Testing ETHICAL Malware Analysis Toolkit components\n")
     

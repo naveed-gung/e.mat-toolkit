@@ -1,10 +1,10 @@
-# E-MAT Usage Examples
+# E.MAT Usage Examples
 
 This file demonstrates how to use the ETHICAL Malware Analysis Toolkit.
 
 ## Prerequisites
 
-E-MAT automatically activates the virtual environment when you run it. Simply ensure you have Python 3.8+ installed:
+E.MAT automatically activates the virtual environment when you run it. Simply ensure you have Python 3.8+ installed:
 
 ```bash
 cd e.mat-toolkit

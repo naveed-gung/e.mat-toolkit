@@ -1,4 +1,4 @@
-// E-MAT Web Interface - Main JavaScript
+// E.MAT Web Interface - Main JavaScript
 
 document.addEventListener('DOMContentLoaded', () => {
 

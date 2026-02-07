@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 PE (Portable Executable) File Analyzer
 
 Analyzes Windows PE files for educational purposes:

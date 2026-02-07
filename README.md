@@ -1,4 +1,4 @@
-# E-MAT - ETHICAL Malware Analysis Toolkit
+# E.MAT - ETHICAL Malware Analysis Toolkit
 
 <div align="center">
 
@@ -21,7 +21,7 @@ A modular, educational cybersecurity analysis framework with three interfaces �
 ![PyQt6](https://img.shields.io/badge/Desktop-PyQt6-41cd52.svg)
 ![Flask](https://img.shields.io/badge/Web-Flask-000000.svg)
 
-![E-MAT Screenshot](ASSETS/image.png)
+![E.MAT Screenshot](ASSETS/image.png)
 
 </div>
 
@@ -29,7 +29,7 @@ A modular, educational cybersecurity analysis framework with three interfaces �
 
 ## Overview
 
-E-MAT is a comprehensive malware analysis toolkit designed for **educational and authorized research purposes only**. It provides three distinct interfaces for analyzing potentially malicious files in a safe, controlled environment. A single smart launcher (`emat.py`) manages all three interfaces, handles virtual environment activation, dependency installation, and persistent user preferences.
+E.MAT is a comprehensive malware analysis toolkit designed for **educational and authorized research purposes only**. It provides three distinct interfaces for analyzing potentially malicious files in a safe, controlled environment. A single smart launcher (`emat.py`) manages all three interfaces, handles virtual environment activation, dependency installation, and persistent user preferences.
 
 ### Ethical Warning
 
@@ -188,7 +188,7 @@ python emat.py server --start --port 5000
 ## Project Structure
 
 ```
-e-mat-toolkit/
+e.mat-toolkit/
 ├── emat.py                    # Smart launcher (interactive menu, CLI args, venv management)
 ├── __main__.py                # Thin wrapper → calls emat.main()
 ├── requirements.txt           # Sectioned dependencies: [core], [desktop], [web]
@@ -329,7 +329,7 @@ MIT License — See [LICENSE](LICENSE) file for details.
 
 <div align="center">
 
-**E-MAT v1.0** | Built with Python | For Educational Use Only
+**E.MAT v1.0** | Built with Python | For Educational Use Only
 
 [GitHub](https://github.com/naveed-gung) | [Portfolio](https://naveed-gung.dev)
 

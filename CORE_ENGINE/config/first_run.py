@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 First Run Setup
 
 Interactive setup wizard that:
@@ -43,11 +43,11 @@ def print_colored(text: str, color: str = Colors.ENDC):
 
 
 def print_banner():
-    """Print E-MAT banner"""
+    """Print E.MAT banner"""
     banner = """
 ╔═══════════════════════════════════════════════════════════════╗
 ║                                                               ║
-║   ETHICAL Malware Analysis Toolkit (E-MAT)                   ║
+║   ETHICAL Malware Analysis Toolkit (E.MAT)                   ║
 ║   Version 1.0.0                                               ║
 ║                                                               ║
 ║   Defense through Education and Transparency                  ║
@@ -90,11 +90,11 @@ MISUSE MAY RESULT IN CRIMINAL PROSECUTION.
 def get_user_consent() -> bool:
     """Get user consent to ethical pledge"""
     while True:
-        response = input(f"{Colors.BOLD}Do you agree to use E-MAT ethically and legally? (yes/no): {Colors.ENDC}").strip().lower()
+        response = input(f"{Colors.BOLD}Do you agree to use E.MAT ethically and legally? (yes/no): {Colors.ENDC}").strip().lower()
         if response in ['yes', 'y']:
             return True
         elif response in ['no', 'n']:
-            print_colored("\nYou must agree to the ethical pledge to use E-MAT.", Colors.RED)
+            print_colored("\nYou must agree to the ethical pledge to use E.MAT.", Colors.RED)
             print_colored("Installation cancelled.\n", Colors.RED)
             return False
         else:
@@ -120,7 +120,7 @@ def select_component() -> Optional[Component]:
     print_colored("COMPONENT SELECTION", Colors.CYAN + Colors.BOLD)
     print_colored("="*65 + "\n", Colors.CYAN)
     
-    print("E-MAT provides three interfaces for malware analysis:\n")
+    print("E.MAT provides three interfaces for malware analysis:\n")
     
     print_colored("1. CLI (Command-Line Interface)", Colors.GREEN + Colors.BOLD)
     print("   • Fast and scriptable")

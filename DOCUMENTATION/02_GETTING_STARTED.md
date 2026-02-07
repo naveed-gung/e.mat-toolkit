@@ -1,4 +1,4 @@
-# Getting Started with E-MAT
+# Getting Started with E.MAT
 
 This guide will help you set up and start using the ETHICAL Malware Analysis Toolkit.
 
@@ -163,7 +163,7 @@ python -m emat analyze sample.exe --json > analysis.json
 
 ### Static Analysis Only (Default)
 
-By default, E-MAT performs **static-only** analysis:
+By default, E.MAT performs **static-only** analysis:
 - No code execution
 - Safe for any file
 - Fast and efficient
@@ -261,7 +261,7 @@ If you want to use dynamic analysis:
 ## Ethical Reminder
 
 > [!IMPORTANT]
-> E-MAT is for **educational and authorized security research only**. Always ensure you have proper authorization before analyzing files. Misuse may violate laws and result in criminal prosecution.
+> E.MAT is for **educational and authorized security research only**. Always ensure you have proper authorization before analyzing files. Misuse may violate laws and result in criminal prosecution.
 
 ---
 

@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 Main Entry Point - Thin wrapper for python -m support
 
 All logic lives in emat.py. This file just delegates to it.

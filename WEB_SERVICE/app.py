@@ -1,8 +1,8 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 Web Service / REST API
 
-Flask-based REST API for E-MAT analysis
+Flask-based REST API for E.MAT analysis
 Runs on localhost only for security
 """
 
@@ -103,7 +103,7 @@ def health_check():
     """Health check endpoint"""
     return jsonify({
         'status': 'healthy',
-        'service': 'E-MAT REST API',
+        'service': 'E.MAT REST API',
         'version': '1.0.0',
         'purpose': 'EDUCATIONAL ANALYSIS ONLY'
     })
@@ -466,7 +466,7 @@ def yara_scan():
 def api_info():
     """API information endpoint"""
     return jsonify({
-        'name': 'E-MAT REST API',
+        'name': 'E.MAT REST API',
         'version': '1.0.0',
         'author': 'Naveed Gung',
         'github': 'https://github.com/naveed-gung',
@@ -493,7 +493,7 @@ def start_server(host='127.0.0.1', port=5000, debug=False):
         debug: Enable debug mode
     """
     print("="*70)
-    print("E-MAT REST API Server")
+    print("E.MAT REST API Server")
     print("="*70)
     print(f"\n[#] ETHICAL Malware Analysis Toolkit - Web Service")
     print(f"\n[!] FOR EDUCATIONAL AND AUTHORIZED RESEARCH ONLY\n")

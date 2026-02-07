@@ -1,6 +1,6 @@
 # Safe Sample Files for Testing
 
-This directory contains safe files for testing E-MAT functionality:
+This directory contains safe files for testing E.MAT functionality:
 
 ## EICAR Test File
 
@@ -12,7 +12,7 @@ This directory contains safe files for testing E-MAT functionality:
 
 ## Usage
 
-Test E-MAT with these safe samples:
+Test E.MAT with these safe samples:
 
 ```bash
 # Analyze EICAR file

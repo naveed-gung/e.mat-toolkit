@@ -1,5 +1,5 @@
 """
-ETHICAL Malware Analysis Toolkit (E-MAT)
+ETHICAL Malware Analysis Toolkit (E.MAT)
 YARA Manager
 
 Manages YARA rule scanning for educational purposes:
@@ -122,7 +122,7 @@ class YARAManager:
         {
             meta:
                 description = "Detects common suspicious strings (educational)"
-                author = "E-MAT"
+                author = "E.MAT"
                 severity = "low"
             
             strings:
@@ -140,7 +140,7 @@ class YARAManager:
         {
             meta:
                 description = "Detects high entropy (possible packing/encryption)"
-                author = "E-MAT"
+                author = "E.MAT"
                 severity = "medium"
             
             strings:
@@ -155,7 +155,7 @@ class YARAManager:
         {
             meta:
                 description = "Detects network-related strings (educational)"
-                author = "E-MAT"
+                author = "E.MAT"
                 severity = "low"
             
             strings:
@@ -238,7 +238,7 @@ def create_default_yara_rules():
     
     if not default_rules_file.exists():
         rules_content = """/*
-    E-MAT Default Educational YARA Rules
+    E.MAT Default Educational YARA Rules
     
     These rules are designed for EDUCATIONAL purposes only.
     They detect common patterns found in both legitimate and malicious software.
@@ -251,7 +251,7 @@ rule Suspicious_API_Calls
 {
     meta:
         description = "Detects potentially suspicious Windows API calls"
-        author = "E-MAT / Naveed Gung"
+        author = "E.MAT / Naveed Gung"
         severity = "medium"
         educational_note = "These APIs can be used for legitimate purposes but are also common in malware"
     
@@ -270,7 +270,7 @@ rule UPX_Packer
 {
     meta:
         description = "Detects UPX packer signatures"
-        author = "E-MAT / Naveed Gung"
+        author = "E.MAT / Naveed Gung"
         severity = "low"
         educational_note = "UPX is a legitimate packer but also used to obfuscate malware"
     
@@ -287,7 +287,7 @@ rule Network_Activity
 {
     meta:
         description = "Detects network-related strings and APIs"
-        author = "E-MAT / Naveed Gung"
+        author = "E.MAT / Naveed Gung"
         severity = "low"
         educational_note = "Network activity is normal but worth investigating"
     
@@ -307,7 +307,7 @@ rule Registry_Modification
 {
     meta:
         description = "Detects registry-related strings"
-        author = "E-MAT / Naveed Gung"
+        author = "E.MAT / Naveed Gung"
         severity = "medium"
         educational_note = "Registry modifications can indicate persistence mechanisms"
     
@@ -325,7 +325,7 @@ rule Command_Execution
 {
     meta:
         description = "Detects command execution strings"
-        author = "E-MAT / Naveed Gung"
+        author = "E.MAT / Naveed Gung"
         severity = "medium"
         educational_note = "Command execution can be legitimate or malicious depending on context"
     
