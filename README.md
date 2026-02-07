@@ -118,8 +118,8 @@ All three interfaces share the same **CORE_ENGINE** for consistent analysis resu
 
 ```bash
 # Clone repository
-git clone https://github.com/naveed-gung/emat-toolkit.git
-cd emat-toolkit
+git clone https://github.com/naveed-gung/e.mat-toolkit.git
+cd e.mat-toolkit
 
 # Create virtual environment
 python -m venv venv

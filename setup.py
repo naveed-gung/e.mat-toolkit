@@ -7,17 +7,17 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="emat-toolkit",
+    name="e.mat-toolkit",
     version="1.0.0",
     author="Naveed Gung",
     author_email="contact@naveed-gung.dev",
     description="ETHICAL Malware Analysis Toolkit - Educational cybersecurity analysis framework",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/naveed-gung/emat-toolkit",
+    url="https://github.com/naveed-gung/e.mat-toolkit",
     project_urls={
-        "Bug Tracker": "https://github.com/naveed-gung/emat-toolkit/issues",
-        "Documentation": "https://github.com/naveed-gung/emat-toolkit/blob/main/DOCUMENTATION/02_GETTING_STARTED.md",
+        "Bug Tracker": "https://github.com/naveed-gung/e.mat-toolkit/issues",
+        "Documentation": "https://github.com/naveed-gung/e.mat-toolkit/blob/main/DOCUMENTATION/02_GETTING_STARTED.md",
         "Portfolio": "https://naveed-gung.dev",
     },
     packages=find_packages(),

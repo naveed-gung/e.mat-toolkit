@@ -13,8 +13,8 @@ This guide will help you set up and start using the ETHICAL Malware Analysis Too
 ### Step 1: Clone and Navigate to the Project
 
 ```bash
-git clone https://github.com/naveed-gung/emat-toolkit.git
-cd emat-toolkit
+git clone https://github.com/naveed-gung/e.mat-toolkit.git
+cd e.mat-toolkit
 ```
 
 ### Step 2: Create Virtual Environment

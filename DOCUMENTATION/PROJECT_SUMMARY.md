@@ -91,7 +91,7 @@ e-mat-toolkit/
 
 ### 1. Activate Virtual Environment
 ```bash
-cd emat-toolkit
+cd e.mat-toolkit
 source venv/Scripts/activate
 ```
 

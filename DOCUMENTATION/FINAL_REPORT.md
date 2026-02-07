@@ -204,7 +204,7 @@ The toolkit successfully balances powerful analysis capabilities with strong eth
 
 ## Project Links
 
-- Repository: [github.com/naveed-gung/emat-toolkit](https://github.com/naveed-gung/emat-toolkit)
+- Repository: [github.com/naveed-gung/e.mat-toolkit](https://github.com/naveed-gung/e.mat-toolkit)
 - Documentation: `DOCUMENTATION/`
 - Tests: `TESTS/`
 - Docker Config: `DOCKER_CONFIG/`
