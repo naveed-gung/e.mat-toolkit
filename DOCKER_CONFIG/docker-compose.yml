@@ -1,0 +1,21 @@
+services:
+  emat-sandbox:
+    build:
+      context: ..
+      dockerfile: DOCKER_CONFIG/Dockerfile
+    container_name: emat-analysis-sandbox
+    network_mode: none  # NO NETWORK ACCESS for security
+    volumes:
+      - ./samples:/analysis/samples:ro  # Read-only samples
+      - ./results:/analysis/results  # Results output
+    environment:
+      - EMAT_DOCKER=1
+      - EMAT_ISOLATED=1
+    mem_limit: 2g
+    cpus: 1
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+    command: ["python", "emat.py", "analyze", "/analysis/samples/sample.bin", "--json"]

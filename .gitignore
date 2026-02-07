@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# E-MAT config (user-specific)
+.emat_config.json
+
+# Report history (generated at runtime)
+DATA/report_history.json
+
+# Temporary files
+*.tmp
+*.bak
+
+# Windsurf
+.windsurf/
